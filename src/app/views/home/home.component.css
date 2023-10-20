@@ -1,0 +1,469 @@
+/* main {
+    height: 1770px;
+} */
+
+/* Banner */
+
+.banner {
+    height: 400px;
+    background-image: linear-gradient(to right, #145369, #010303 70%);
+}
+
+.banner-1 {
+    height: 400px;
+    background-image: url(/assets/img/consoles-usados.svg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.banner-2 {
+    height: 400px;
+    background-image: url(/assets//img/banner-god-of-war.svg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.elemento-banner-desativado {
+    display: none;
+}
+
+.grid-banner {
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagem-banner{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    height: 350px;
+    width: 40.4%;
+    
+}
+
+.imagem-godofwar {
+    height: 200px;
+    width: 31.1%;
+    align-self: flex-start;
+}
+
+.imagem-horizon {
+    height: 200px;
+    width: 31.1%;
+    
+}
+
+.imagem-fifa {
+    height: 200px;
+    width: 31.1%;
+    align-self: flex-end;
+}
+
+.texto-destaque {
+    text-transform: uppercase;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.promocao {
+    width: 350px;
+    height: 40px;
+    background-color: #278D38;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto-promocao {
+    text-transform: uppercase;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+   
+}
+
+.botao-promocao {
+    width: 200px;
+    height: 38px;
+    background-color: #8cdee9;
+    color: white;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none; 
+}
+
+.destaque-banner {
+    height: 150px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* informações */
+
+.informacoes {
+    background-color: #2596BE;
+    height: 100px;
+
+}
+
+.grid-informacoes {
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icone-texto-informacoes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.icone-informacoes {
+    height: 50px;
+    width: 50px;
+    margin-right: 5px;
+
+}
+
+.titulo-informacoes {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+
+}
+
+.texto-informacoes {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: white;
+
+}
+
+.informacoes-menor-768 {
+    height: 90px;
+    background-color: #2596BE;
+}
+
+.informacoes-menor-768 .icone-texto-informacoes {
+    width: 180px;
+    justify-content: flex-start;
+}
+
+
+
+
+/* login */
+
+.botao-login {
+    width: 300px;
+    height: 40px;
+    background-color: #8cdee9;
+    color: white;
+    border-radius: 5px;
+    border: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none; 
+}
+
+/* Destaques */
+
+.destaques {
+    height: 1020px;
+    width: 100%;
+    background-image: linear-gradient(to right, #354448 2% , #25A5BE, #2F3233 98%);
+}
+
+.grid-destaques {
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.titulo-destaque {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.titulo-destaque h2 {
+    text-transform: uppercase;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+   
+}
+
+.imagens-destaque {
+    height: 840px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.linha-destaque {
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.card-destaque {
+    height: 400px;
+    width: 350px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.imagem-card {
+    width: 222px;
+    height: 222px;
+}
+
+.titulo-card {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.preco-card {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.botao-card {
+    width: 200px;
+    height: 40px;
+    color: black;
+}
+
+.link-destaque {
+    text-decoration: none;
+    color: black;
+}
+
+.link-destaque:hover {
+    color: black;
+    transform: scale(1.1);
+}
+
+.carrossel-destaque {
+    height: 440px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+/* Slogan */
+
+.slogan {
+    height: 250px;
+    width: 100%;
+    background-image: url(/assets/img/16233829519679\ 1.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.mascara-slogan {
+    background-color: rgb(0, 0, 0, 0.5);
+    height: 60%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.escurece-mascara{
+    background-color: rgb(0, 0, 0, 0.5);
+    height: 80%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.texto-slogan {
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.grid-slogan {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+/* Responsividade */
+
+@media screen and (max-width: 1200px){
+    .imagens-destaque {display: none;}
+    .card-destaque {width: 300px;}
+    .destaques {height: 600px;}
+    
+    
+}
+
+@media screen and (min-width: 1200px){
+    .carrossel-destaque {display: none;} 
+    
+}
+
+@media screen and (max-width:1100px) {
+    .banner-2 {background-image: url(/assets/img/banner-god-of-war-1100.svg);}
+}
+
+@media screen and (max-width:992px) {
+    .imagem-banner {width: 60%;}
+    .banner-1 {background-image: url(/assets/img/consoles-usados-992.svg);}
+    .banner-2 {background-image: url(/assets/img/banner-god-of-war-992.svg);}
+    .promocao {width: 300px;}
+    .texto-promocao {font-size: 22px;}
+    .botao-promocao { font-size: 16px; width: 150px;}
+    .texto-destaque {font-size: 36px;}
+    .icone-informacoes {width: 45px; height: 45px;}
+    .titulo-informacoes {font-size: 13px;}
+    .texto-informacoes {font-size: 12px;}
+    .slogan {height: 200px;}
+    .texto-slogan {font-size: 25px;}
+    .carrossel-destaque {width: 90%;}
+}
+
+@media screen and (max-width: 768px) {
+    .destaque-banner {position: absolute;}
+    .grid-banner .mascara {position: absolute; height: 370px; background-color: rgb(0, 0, 0, 0.5)}
+    .imagem-banner {width: 60%;}
+    .banner {height: 370px}
+    .banner-1 {height: 370px; background-image: url(/assets/img/consoles-usados-768.svg);}
+    .banner-2 {height: 370px; background-image: url(/assets/img/banner-god-of-war-768.svg);}
+    .imagem-banner {width: 70%;}
+    .informacoes {display: none;}
+    .slogan {height: 180px;}
+    .texto-slogan {font-size: 20px;}
+    .carrossel-destaque {width: 100%;}
+    .card-destaque {width: 250px; }
+    .titulo-destaque h2 {font-size: 18px;}
+    
+
+
+    
+}
+
+@media screen and (min-width: 768px) {
+    .grid-banner .mascara {display: none;}
+    .informacoes-menor-768 {display: none;}
+    
+}
+
+
+@media screen and (max-width: 576px) {
+    .banner-1 {background-image: url(/assets/img/consoles-usados-576.svg);}
+    .banner-2 {background-image: url(/assets/img/banner-god-of-war-576.svg);}
+    .grid-informacoes {width: 90%;}
+    .slogan {height: 130px;}
+    .texto-slogan {font-size: 17px;}
+    .card-destaque {width: 200px; height: 380px;}
+    .titulo-destaque h2 {font-size: 18px;}
+    .imagem-card {width: 180px; height: 180px;}
+    .botao-card {width: 150px;}
+    .titulo-card {font-size: 12px;}
+    .preco-card {font-size: 16px;}
+    .botao-card {font-size: 12px;}
+    .carrossel-destaque {width: 85%;}
+    
+}
+
+
+@media screen and (min-width: 576px) {
+    .btn-group-vertical {display: none;}
+    
+}
+
+
+@media screen and (max-width: 500px) {
+    .promocao {width: 250px;}
+    .texto-promocao {font-size: 20px;}
+    .botao-promocao { font-size: 14px; width: 120px;}
+    .texto-destaque {font-size: 32px;}
+    .banner {height:340px;}
+    .banner-1 {height: 340px;}
+    .banner-2 {height:340px; background-image: url(/assets/img/banner-god-of-war-500.svg);}
+    .grid-banner .mascara {height: 340px;}
+    .imagem-banner {width: 80%;} 
+    .informacoes-menor-768 .icone-informacoes {width: 45px; height: 45px;}
+    .informacoes-menor-768 .titulo-informacoes {font-size: 12px;}
+    .informacoes-menor-768 .texto-informacoes {font-size: 10px;}
+    .grid-informacoes {width: 100%;}
+    .slogan {height: 120px;}
+    .texto-slogan {font-size: 15px;}
+    .carrossel-destaque {width: 100%;}
+   
+    
+}
+
+@media screen and (max-width: 435px) {
+    .card-destaque {width: 250px; margin-left: 20%;}
+    .banner-1 {background-image: url(/assets/img/consoles-usados-435.svg);}
+    .banner-2 {background-image: url(/assets/img/banner-god-of-war-435.svg);}
+
+
+}
+
+@media screen and (max-width: 400px) {
+    .texto-slogan {font-size: 70%;} 
+    .card-destaque {margin-left: 10%;}
+    .banner-2 {background-image: url(/assets/img/banner-god-of-war-400.svg);}
+    
+}

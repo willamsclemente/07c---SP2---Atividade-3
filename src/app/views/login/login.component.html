@@ -1,0 +1,32 @@
+<header class="transforma-header">
+    <div class="container container-grid">
+            <div class="logo-buscador">
+                <a routerLink="/" class="logo">
+                    <img src="assets/img/game.svg" alt="Iconelogo">
+                    <img src="assets/img/GAMEMANIA4-SF 1.svg" alt="Logo">
+                </a>
+            </div>
+    </div>                 
+</header>
+
+<main class="transforma-main">
+    <div class="mascara">
+        <section class="container container-grid-login">
+                <form class="login" (ngSubmit)="preencherLogin()">
+                    <h2 class="titulo-login">Já sou cliente</h2>
+                    <input id="campo-login" name="email" type="text" class="campo-login" minlength="5" placeholder="Seu e-mail, CPF ou CNPJ" required [(ngModel)]="userModel.email">
+                    <input id="campo-senha" name="password" type="password" class="campo-login" minlength="8" placeholder="Sua senha" required [(ngModel)]="userModel.password">
+                    <a routerLink="#" class="link-muda-senha">Esqueci minha senha</a>
+                    <button class="botao-login" type="submit" onclick="loginUsuario()">Entrar</button>
+                </form>
+                <form class="login" (ngSubmit)="preencherCadastro">
+                    <h2 class="titulo-login">Criar uma conta</h2>
+                    <input id="campo-email" name="emailCadastro" type="email" class="campo-login" minlength="5" placeholder="Seu e-mail" required [(ngModel)]="newUserModel.email">
+                    <button class="botao-login" type="submit" onclick="cadastrarUsuario()">Continuar</button>
+                </form>
+
+        </section>
+    </div>
+</main>
+
+
